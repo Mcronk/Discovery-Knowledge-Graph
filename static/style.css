@@ -1,0 +1,242 @@
+/* body            { font-family: sans-serif; background: rgba(255,255,255,.5); } */
+body {
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  background: rgba(255, 255, 255, 0.5);
+  color: #212121;
+}
+a,
+h1,
+h2 {
+  color: #383838;
+}
+a:link {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+a:active {
+  text-decoration: none;
+}
+a:visited {
+  color: grey;
+}
+h1,
+h2 {
+  font-family: "Times", serif;
+}
+/*h1              { border-bottom: 2px solid #eee; }*/
+h2 {
+  font-size: 1.2em;
+}
+td {
+  width: 33.33%;
+}
+table {
+  padding-top: 0.8em;
+}
+hr {
+  border: 0;
+  height: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.page {
+  height: 85vh;
+  margin: 0em;
+  background: white;
+}
+.entries {
+  margin: 0;
+  padding: 0;
+}
+.add-entry {
+  font-size: 0.9em;
+  font-weight: bold;
+  padding: 0.8em;
+}
+
+.flash {
+  background: #cee5f5;
+  padding: 0.5em;
+  border: 1px solid #aacbe2;
+  margin-bottom: 1em;
+}
+.error {
+  background: #f0d6d6;
+  padding: 0.5em;
+}
+/* .node           { font-family: Lato;} */
+.node {
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  color: #212121;
+  cursor: pointer;
+}
+/* .node           { font-family: Lato; color: #000000; font-size: 10pt;} */
+
+.link {
+  stroke: #999;
+  stroke-width: 0.5px;
+}
+#loading {
+  display: none;
+}
+#chart {
+  margin: auto;
+  display: none;
+}
+/* .graph          { width: 75%; height: 100%; background: #383838;  */
+.graph {
+  width: 100%;
+  height: 5000px;
+  background: #cccccc;
+}
+
+/* Adjust "graph" class for WCP */
+.graph {
+  width: 580px;
+  height: 370px;
+  background: #ffffff;
+  float: right;
+}
+.headlines {
+  width: 25%;
+  height: 100%;
+  float: left;
+  overflow-y: auto;
+}
+.titles {
+  padding: 0 0 0 0.5em;
+}
+
+select {
+  /* .selectpicker { */
+  /* #typeSelect { */
+  /* -webkit-appearance: menu; */
+  /* -webkit-appearance: none; */
+  /* -webkit-appearance: menulist !important; */
+  /*webkit browsers */
+  /* -moz-appearance: none; */
+  /*Firefox */
+  /* appearance: none; */
+  /* modern browsers */
+  /* border-radius: 0; */
+  /* overflow: scroll; */
+  /* overflow: hidden; */
+  /* overflow: visible; */
+  /* overflow-y: scroll; */
+  /* max-height: 20px; */
+  /* overflow-x: hidden; */
+}
+
+/* select::-ms-expand { display: block; } */
+
+/* select:-internal-list-box {
+  -webkit-appearance: menulist !important;;
+} */
+
+.container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.entity-row {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.m-2 {
+  margin: 0 !important;
+}
+
+.p-2 {
+  padding: 0 !important;
+}
+
+/* Dropdown/button color should be #D5D5D5 */
+
+.btn-group-xs > .btn,
+.btn-xs {
+  padding: 0.25rem 0.4rem;
+  font-size: 0.875rem;
+  line-height: 0.5;
+  border-radius: 0.2rem;
+}
+
+/* .bootstrap-select.form-control-sm .dropdown-toggle {
+  padding: .25rem .5rem;
+} */
+
+/* .bootstrap-select.form-control-xs .dropdown-toggle { */
+/* .form-control-xs .dropdown-toggle { */
+.form-control-xs {
+  padding: 0rem 0rem;
+}
+
+.form-control .form-control-xs {
+  /* padding: .25rem .4rem; */
+  padding: 0rem 0rem;
+  font-size: 0.875rem;
+  line-height: 0.5;
+  border-radius: 0.2rem;
+}
+
+.form-control {
+  font-size: 0.875rem;
+}
+/* .entityDropdown { */
+.entityDropdown {
+  font-size: 0.875rem;
+}
+
+/* .bootstrap-select>.dropdown-toggle */
+
+.bootstrap-select > .dropdown-toggle {
+  min-width: 126px;
+}
+
+#typeSelect {
+}
+
+/* .col-right {
+  padding: 0 2px;
+} */
+
+.col3 {
+  padding-left: 2px !important;
+  padding-right: 50px !important;
+  /* padding-right: 0.1rem; */
+  /* padding: 0 2px !important; */
+}
+
+.col2 {
+  /* padding-left: 5px; */
+  /* padding-right: 2px; */
+  /* padding-right: 0.1rem; */
+  padding: 0 2px !important;
+}
+
+.col1 {
+  padding: 0 5px !important;
+}
+
+.entity-row {
+  /* margin-top: 5px;
+  margin-bottom: 5px; */
+  padding-top: 0.1rem;
+  padding-bottom: 0.1rem;
+}
+
+.btn {
+  font-size: 0.875rem;
+  line-height: 0.9rem;
+  /* margin-top: 0.1rem;
+  margin-bottom: 0.1rem; */
+  /* padding-top: 0.1rem;
+  padding-bottom: 0.1rem; */
+  padding: 0.25rem 0.4rem;
+  /* padding: .15rem .2rem; */
+  /* vertical-align: bottom; */
+  border-color: #d5d5d5;
+}

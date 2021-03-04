@@ -1,0 +1,6 @@
+applications:
+  - name: phimatics-knowledge-graph
+    random-route: true
+    memory: 1024M
+    host: phimatics-knowledge-graph
+    instances: 3
